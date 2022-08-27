@@ -1,1 +1,16 @@
 /* Add custom css styles here */
+
+.box {
+    background-color: black;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    height: 120px;
+
+}
