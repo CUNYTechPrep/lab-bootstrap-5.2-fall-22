@@ -10,3 +10,7 @@ header {
 .coffee-title {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+.col > img {
+  border-radius: 7rem;
+}
