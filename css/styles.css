@@ -1,5 +1,5 @@
 /* Add custom css styles here */
-@media(min-width:576px){
+
 header{
     height:400px;
     text-align: center;
@@ -22,6 +22,9 @@ header{
     background-color: black;
     opacity: 0.5;
 }
+main{
+    margin-top:50px;
+}
 .about-us{
     margin-top: 100px;
     background-color: hsl(0, 0%,90%, 0.1);
@@ -38,4 +41,4 @@ header{
     color:white;
     padding:10px;
 }
-}
+
