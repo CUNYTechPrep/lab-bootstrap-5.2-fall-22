@@ -7,7 +7,5 @@ header {
 }
 
 .coffee-title {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 1rem;
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
 }
