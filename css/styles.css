@@ -1,1 +1,13 @@
 /* Add custom css styles here */
+header {
+  background-image: url('../images/coffee-biscuits.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 600px;
+}
+
+.coffee-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  text-align: center;
+}
