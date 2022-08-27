@@ -15,7 +15,19 @@ header {
   border-radius: 7rem;
 }
 
+.col > h3 {
+  margin-top: 2rem;
+}
+
 .about-img {
   width: 13rem;
   border-radius: 7rem;
+}
+
+/* Alternating HTML */
+.alt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
