@@ -37,13 +37,24 @@ header {
     display: block;
     margin: auto;
   }
-  .our-cookie-title {
+  .cookie-title {
     margin-top: 3rem;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .our-cookie-title {
+  .cookie-title {
     margin-top: 3rem;
+  }
+
+  .contact-info {
+    margin-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .about-img {
+    margin-bottom: 2rem;
   }
 }
