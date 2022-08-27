@@ -32,8 +32,9 @@ header {
   align-items: center;
 }
 
-.cookie-img {
-  width: auto;
-  height: auto;
-  border-radius: 7rem;
+@media screen and (max-width: 768px) {
+  .cookie-img {
+    display: block;
+    margin: auto;
+  }
 }
