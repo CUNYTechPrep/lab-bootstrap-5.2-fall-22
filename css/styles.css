@@ -25,8 +25,15 @@ body {
   border-radius: 1rem;
 }
 
+.row {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .cookie {
   border-radius: 100%;
+  width: auto;
+  height: auto;
 }
 
 .about-us {
@@ -48,4 +55,12 @@ footer {
   color: white;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+/*Alternate*/
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
