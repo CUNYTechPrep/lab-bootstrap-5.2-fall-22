@@ -14,3 +14,8 @@ header {
 .col > img {
   border-radius: 7rem;
 }
+
+.about-img {
+  width: 13rem;
+  border-radius: 7rem;
+}
