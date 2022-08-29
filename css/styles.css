@@ -1,1 +1,9 @@
-/* Add custom css styles here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: blue;
+}
