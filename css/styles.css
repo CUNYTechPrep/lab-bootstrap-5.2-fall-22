@@ -1,1 +1,18 @@
 /* Add custom css styles here */
+header {
+  height: 400px;
+  background-image: url("../images/cookies.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  color: black;
+  text-align: center;
+  background-color: rgba(210, 210, 210, 0.75);
+  padding: 20px;
+  border-radius: 20px;
+}
