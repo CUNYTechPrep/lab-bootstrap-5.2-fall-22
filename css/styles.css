@@ -1,1 +1,43 @@
 /* Add custom css styles here */
+header {
+    background: url("../images/coffee-biscuits.jpg") center no-repeat; 
+    background-size: cover; 
+    height: 40rem; 
+    padding-top: 150px; 
+    padding-bottom: 150px;
+}
+
+#header-title {
+    background-color: rgba(5,5,5,0.6);
+    border-radius: 25px;
+    margin: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    height: auto;
+    max-height: 400px;
+    overflow: auto;s
+}
+
+#header-title > p {
+    margin: 20px,0px;
+}
+
+#header-title-container {
+    width: 50%;
+    margin: 20px, 50px;
+}
+
+#main-header > h2 {
+    font-weight: 500;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+#about-us {
+    background-color: rgb(245,245,245);
+}
+
+footer {
+    background-color: rgb(0, 115, 255);"
+}
