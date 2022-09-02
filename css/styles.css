@@ -1,1 +1,11 @@
 /* Add custom css styles here */
+header {
+	height: 400px;
+	background-image: url(../images/coffee-biscuits.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
