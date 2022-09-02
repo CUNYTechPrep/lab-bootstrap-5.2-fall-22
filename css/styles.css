@@ -1,1 +1,24 @@
 /* Add custom css styles here */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 400px;
+    background-image: url("../images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-position: center/center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+header .heading {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
