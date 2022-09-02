@@ -9,3 +9,7 @@ header {
 	align-items: center;
 	color: white;
 }
+
+.about-img {
+	border-radius: 50%;
+}
