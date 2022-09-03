@@ -1,1 +1,10 @@
 /* Add custom css styles here */
+header{
+    height: 600px;
+    background-image:url('coffee-biscuits.jpg');
+    background-color: navy;
+}
+h1{
+    color: blue;
+}
+
