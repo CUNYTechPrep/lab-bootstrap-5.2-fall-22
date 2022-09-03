@@ -15,16 +15,18 @@ TITLE: Include your section in the pull request title
 - [ ] Wednesday
 - [ ] Thursday
 - [ ] Friday 3pm
-- [ ] Friday 6pm
+- [x] Friday 6pm
 
 **Is the solution complete?**
 
-[Yes/No]
+Yes
 
 **Did you run into any problems?**
 
-[Describe...]
+Ran into some problems with making images responsive. 
+Had difficulties spacing out elements- a lot to consider: padding, margin, gutters, etc.   
 
 **Did you collaborate with others on this solution?**
 
+No
 <!-- Provide collaborators github usernames -->
