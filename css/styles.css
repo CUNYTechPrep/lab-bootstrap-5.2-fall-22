@@ -1,1 +1,33 @@
 /* Add custom css styles here */
+
+
+
+/**Part 2.2 */
+header{
+    background-color: beige;
+    background-size: contain;
+    height: 300 px;
+    width: 400 px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/**Part 2.3 */
+
+h2{
+    
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.abt{
+    text-align: center;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
