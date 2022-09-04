@@ -1,1 +1,11 @@
 /* Add custom css styles here */
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    border: red solid 2px;
+    background-image: url("images/coffee-biscuits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
