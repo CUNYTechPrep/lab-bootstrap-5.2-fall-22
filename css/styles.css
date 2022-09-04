@@ -1,1 +1,47 @@
-/* Add custom css styles here */
+/* Add custom css styles here 
+class = .
+id = #
+*/
+
+
+header{
+    height: 400px;
+    padding: 140px;
+    color: white;
+    background-position: center;
+    background-image: url(https://st2.depositphotos.com/2791409/8121/i/450/depositphotos_81218166-stock-photo-coffee-backgrond.jpg);
+    background-size: 100% 100%;
+    max-width: 100%;
+    
+}
+
+#headerImg{
+    background-image: url(https://img.freepik.com/free-photo/coffee-beans-top-view-white-background-space-text_176474-5028.jpg?w=2000);
+    background-size:contain;
+    max-width: 100%;
+}
+
+#aboutUs{
+    background-color: rgb(243, 243, 243);
+    padding-top: 2%;
+   
+}
+
+#aboutImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+
+}
+
+
+
+#foot {
+    background: #007af4;
+    max-width: 100%;
+    height: auto;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
