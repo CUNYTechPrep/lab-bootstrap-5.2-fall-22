@@ -1,1 +1,78 @@
 /* Add custom css styles here */
+.header-style {
+    text-align: center; 
+    height: 500px; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-div {
+    background-color: gray; 
+    color: white; width: 40%; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    border-radius: 30px; 
+    background-color: rgba(49, 49, 49, 0.7);
+}
+
+.cookie-main-title {
+    text-align: center;
+}
+
+.cookie-image {
+    border-radius: 50%;
+}
+
+.about-us-div {
+    background-color: rgb(197, 197, 197); 
+    height: auto;
+}
+
+.about-us-title {
+    text-align: center;
+}
+
+.about-us-image {
+    border-radius: 50%; 
+    width: 100%; 
+    height: 70%;
+}
+
+.footer-style {
+    height: 200px; 
+    background-color: rgb(67, 67, 222); 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div {
+    text-align: center;
+}
+
+/* Alternating File CSS */
+.alt-title-div {
+    text-align: center;
+}
+
+.cookie {
+    border-radius: 50%;
+}
+
+.flex {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .cookie {
+        margin: auto;
+    }
+}
