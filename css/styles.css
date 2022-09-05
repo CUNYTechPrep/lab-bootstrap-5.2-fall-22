@@ -1,1 +1,29 @@
 /* Add custom css styles here */
+
+header{
+  background-size: cover;
+  height: 400px;
+  background-image: url('/images/coffee-biscuits.jpg');
+}
+
+.center {
+  margin: 128px;
+  display: inline-block;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: rgba(229, 216, 191, 0.53);
+}
+
+.head2 {
+  margin-top: 32px;
+}
+
+.about-us {
+  margin-top: 128px;
+  background-color: lightgrey;
+  padding: 32px;
+}
+
+.custom {
+  background-color: grey;
+}
