@@ -2,56 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
     <title>Cookie Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
+    <header class="center">
+      <div class="header-text">
+        <br>
+        <h1>Cookie Store</h1>
+        <p>Buy our awesome cookies. All proceeds go to charity!</p>
+        <br>
+      </div>
     </header>
+    <br><br>
 
     <main>
-      <h2>Our Cookies</h2>
-      <p>Checkout our latest and delicious cookies.</p>
-
-      <h3>Mint Chocolate</h3>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
-
-      <h3>Peanut Butter</h3>
-      <p>Yummy peanut buttery goodness</p>
-      <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
-
-      <h3>Oatmeal</h3>
-      <p>Your fitness instructors favorite</p>
-      <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
-
-      <h3>Chocolate Chip</h3>
-      <p>Gooey chocolate you'll love</p>
-      <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
+      <div class="container text-center">
+        <h2>Our Cookies</h2>
+        <p>Checkout our latest and delicious cookies.</p>
+        <br>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+            <h3>Mint Chocolate</h3>
+            <p>Tasty mint chocolate cookies</p>
+            <img src="images/mint-cookie.png" class="rounded-circle img-fluid" alt="A single mint chocolate cookie" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+            <h3>Peanut Butter</h3>
+            <p>Yummy peanut buttery goodness</p>
+            <img src="images/peanut-cookie.png" class="rounded-circle img-fluid" alt="A single peanut butter cookie" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+            <h3>Oatmeal</h3>
+            <p>Your fitness instructors favorite</p>
+            <img src="images/oatmeal-cookie.png" class="rounded-circle img-fluid" alt="A single oatmeal cookie" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3  mb-5">
+            <h3>Chocolate Chip</h3>
+            <p>Gooey chocolate you'll love</p>
+            <img src="images/chip-cookie.png" class="rounded-circle img-fluid" alt="A single chocolate chip cookie" />
+          </div>
+        </div>
+      </div>     
     </main>
-    <div>
-      <h2>About us</h2>
+    <br><br>
 
-      <img src="images/bakers.svg" alt="illustrations of two people baking" />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+    <div class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <br><br>
+            <h2>About us</h2>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 d-none d-md-block">
+            <img src="images/bakers.svg" alt="illustrations of two people baking" style="width: 200px;height: 200px" class="rounded-circle" />
+          </div>
+          <div class="col-lg-9 col-md-8">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
       </div>
+      <br><br>
     </div>
     <footer>
       <h2>Contact us</h2>
-      <div>
-        100 Broadway Avenue,<br />
-        New York, NY 10001 <br />
-        (212) 555-1234
-      </div>
+        <div>
+          100 Broadway Avenue,<br />
+          New York, NY 10001 <br />
+          (212) 555-1234
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
