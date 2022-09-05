@@ -7,6 +7,12 @@ header{
     margin-top: 10px;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+main{
+    padding-bottom: 50px;
 }
 .hdcontent{
     background: rgb(0, 0, 0, 0.5);
@@ -15,46 +21,31 @@ header{
     height: 170px;
     border-radius: 20px;
     text-align: center;
-    position: relative;
-    top: 115px;
-    left: 280px;
     font-size: 20px;
-    padding-top: 35px;
 }
 .cookie-img{
     border-radius: 200px;
 }
 .about-us{
-
     background-color: #fafafa;
-    padding-top: 10px;
-    height: 300px;
-    margin-top: 40px;
-    padding-top: 40px;
+    padding-top: 30px;
+    height: 280px;
 }
 #au-img{
-    width: 140px;
-    height: 140px;
-    border-radius: 140px;
-}
-.img-para{
-    display: flex;
-    padding-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    margin-left: 20px;
 }
 .ab-content{
     text-align: left;
-    margin-left: 20px;
-    padding-top: 15px;
+    font-size: 15px;
 }
 footer {
     color: #fff;
     background-color: #004Eff;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    height: 230px;
+    padding-top: 20px;
 }
 
 
