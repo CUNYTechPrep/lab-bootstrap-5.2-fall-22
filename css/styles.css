@@ -1,1 +1,107 @@
-/* Add custom css styles here */
+body{
+    overflow: -moz-hidden-unscrollable;
+}
+header{
+    background-image: url("/Users/taniasacoto/Desktop/CTP/lab-bootstrap-5.2/images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    background-position: center center;
+    height:400px;
+    align-items: center;
+}
+.heading{
+    display: inline;
+    vertical-align: top;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    height: 175px;
+    width: 500px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0.7;
+    background-color: #444444;
+}
+.heading h1{
+    color: white;
+    opacity: 1;
+}
+.p{
+    color: white;
+    opacity: 1;
+}
+.desc{
+    text-align: center;
+    padding: 15px;
+}
+.name{
+
+}
+.h1{
+    opacity:1;
+}
+.cookie{
+    text-align: center;
+}
+.title{
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+.row{
+  margin: 20px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;  
+  display: fixed;
+}
+.about{
+    background-color: #f4f4f5;
+    height: 285px;
+}
+.img{
+    margin: 20px;
+    border-radius: 100%;
+    padding: 5px;
+}
+.img1{
+    margin: 0px;
+    border-radius: 100%;
+    padding: 5px;
+}
+.aboutT{
+    padding: 15px;
+    text-align: center;
+}
+.aboutP{
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+}
+footer{
+    background-color: #92bbff;
+    color: white;
+    text-align:center;
+    padding: 10px;
+    height: 200px;
+    align-items: center;
+}
+.footHead{
+    margin: 15px;
+    padding: 5px;
+}
+.cookie1{
+    text-align: center;
+    padding: 90px;   
+}
+
+@media (max-width: 800px) {
+  .cookie1{
+    padding: 0px;
+  }       
+}
