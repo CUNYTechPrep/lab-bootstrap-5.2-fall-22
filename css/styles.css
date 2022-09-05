@@ -1,11 +1,17 @@
 /* Add custom css styles here */
-body{
-    background-color: blanchedalmond;
-}
-
 header{
-    border: red solid 2px;
-    background-image: url("images/coffee-biscuits.jpg");
-    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/coffee-biscuits.jpg");
     background-size: cover;
+}
+#headerText{
+    text-align: center;
+    color: white;
+    background-color: rgb(25, 35, 35);
+    opacity: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
