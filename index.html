@@ -4,54 +4,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookie Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   </head>
+
+<!-- In this file bootstrap is used with the help of flexbox(mostly for position in the column).
+    The rest of the styling happens in the css file.
+    I applied a grid in the header as well due to my super wide screen. The screen would cause the header bckg-image
+    to shrink at impossible making not very pleasent to look at. Therefore I through the grid I limit the streching.
+    I hope it is an acceptable fix and does not go against the requirements.
+    However still not happy with the bckgr image when it shrinks to i-phone screen size.
+    -->
+
+
+
   <body>
-    <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
+   
+    <header style="display: flex; justify-content:center; flex-direction: column;">
+      <div class="container-md">
+        <div class="row-cols-auto" id="bckg">
+          <div id="grey-box" class="col">
+            <h1>Cookie Store</h1>
+            <p>Buy our awesome cookies. All proceeds go to charity!</p>
+          </div>
+        </div>
+      </div>
     </header>
-
+  
     <main>
-      <h2>Our Cookies</h2>
-      <p>Checkout our latest and delicious cookies.</p>
-
-      <h3>Mint Chocolate</h3>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
-
-      <h3>Peanut Butter</h3>
-      <p>Yummy peanut buttery goodness</p>
-      <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
-
-      <h3>Oatmeal</h3>
-      <p>Your fitness instructors favorite</p>
-      <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
-
-      <h3>Chocolate Chip</h3>
-      <p>Gooey chocolate you'll love</p>
-      <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-12" id="our-cookies">
+            <h2 style="text-align: center;">Our Cookies</h2>
+            <p>Checkout our latest and delicious cookies.</p>
+          </div>
+        </div>
+  
+        <div class="row" style="display:flex; justify-content: center;">
+          <div id="cookies" class="col-lg-3  col-md-6 col-sm-12"
+            style="flex-direction:column; width: fit-content; text-align: center;">
+            <h3>Mint Chocolate</h3>
+            <p>Tasty mint chocolate cookies</p>
+            <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" style="border-radius: 150px ;" />
+          </div>
+  
+          <div id="cookies" class=" col-lg-3 col-md-6 col-sm-12"
+            style="flex-direction:column; width: fit-content; text-align: center;">
+            <h3>Peanut Butter</h3>
+            <p>Yummy peanut buttery goodness</p>
+            <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" style="border-radius: 150px ;" />
+  
+          </div>
+  
+          <div id="cookies" class=" col-lg-3 col-md-6 col-sm-12"
+            style="flex-direction:column; width: fit-content; text-align: center;">
+            <h3>Oatmeal</h3>
+            <p>Your fitness instructors favorite</p>
+            <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" style="border-radius: 150px ;" />
+          </div>
+  
+          <div id="cookies" class="col-lg-3  col-md-6 col-sm-12"
+            style="flex-direction:column; width: fit-content; text-align: center;">
+            <h3>Chocolate Chip</h3>
+            <p>Gooey chocolate you'll love</p>
+            <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" style="border-radius: 150px ;" />
+          </div>
+  
+        </div>
+      </div>
     </main>
-    <div>
-      <h2>About us</h2>
-
-      <img src="images/bakers.svg" alt="illustrations of two people baking" />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+  
+    <div class="about-us">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-lg-12" style=" text-align:center;">
+            <h2 style="margin:0 auto">About us</h2>
+          </div>
+          <div class="col-lg-2  col-md-6 col-sm-12" style="display: flex; align-items: center;justify-content: center;">
+            <img src="images/bakers.svg" alt="illustrations of two people baking" width=150px, height=150px;
+              style="border-radius:100px;" />
+          </div>
+          <div id="text" class="col-lg-10  col-md-6 col-sm-12" style="padding-top: 20px;">
+  
+  
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.
+  
+          </div>
+        </div>
       </div>
     </div>
+  
+  
     <footer>
-      <h2>Contact us</h2>
-      <div>
-        100 Broadway Avenue,<br />
-        New York, NY 10001 <br />
-        (212) 555-1234
+      <div class="container-sm text-center">
+        <div class="row">
+          <div id="contact" class="col-12">
+            <h2>Contact us</h2>
+            <div>
+              100 Broadway Avenue,<br />
+              New York, NY 10001 <br />
+              (212) 555-1234
+            </div>
+          </div>
+  
+        </div>
       </div>
     </footer>
+  
   </body>
 </html>

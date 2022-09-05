@@ -1,1 +1,108 @@
 /* Add custom css styles here */
+/* *{
+    border: 3px solid black;
+} */
+
+header {
+    background-color: rgba(225, 126, 6, .2);
+}
+
+#bckg {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: url('https://github.com/CUNYTechPrep/lab-bootstrap-5.2/blob/main/images/coffee-biscuits.jpg?raw=true');
+    background-size: cover;
+    border: 10px solid rgb(217, 212, 223);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgb(93, 83, 130);
+}
+
+#grey-box {
+    background-color: rgba(229, 244, 245, .7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: rgb(128, 56, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+
+}
+
+#grey-box p {
+    font-size: larger;
+}
+
+.about-us {
+    background-color: rgba(225, 126, 6, .2);
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: url(https://thewoksoflife.com/wp-content/uploads/2018/09/red-bean-mooncakes-12.jpg);
+    background-size: cover;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(7, 4, 4);
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    min-width: auto;
+    text-shadow: 1px 1px 2px white;
+    box-shadow: 0 0 30px white;
+}
+
+main {
+
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: rgba(225, 126, 6, .2);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: rgb(182, 82, 6);
+}
+
+#our-cookies {
+    font-size: x-large;
+    color: rgb(255, 0, 208);
+    padding-bottom: 20px;
+}
+
+#cookies img:hover {
+    box-shadow: 0 0 30px rgb(98, 100, 103);
+    transform: scale(1.1);
+}
+
+p,
+H2,
+H3,
+H1,
+#text { 
+    text-shadow: 1px 1px 2px white;
+}
+
+footer {
+
+    background-color: rgba(225, 126, 6, .2);
+
+}
