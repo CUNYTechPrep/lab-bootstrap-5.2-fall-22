@@ -1,1 +1,64 @@
 /* Add custom css styles here */
+main{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+header{
+    height: 600px;
+    background-image:url("https://raw.githubusercontent.com/Zkhan601/lab-bootstrap-5.2/main/images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 255, 255);
+}
+.header-container{
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.header-inner{
+    padding: 2%;
+    width: 450px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.about-us{
+    float:left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 50px;
+    background-color:rgb(239, 239, 239);
+    background-size: cover;
+    
+}
+.subhead{
+    text-align: center;
+}
+header.container{
+    height: 300px;
+    padding-bottom: 50px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(36, 93, 205);
+    color: white;
+    padding: 50px 0px;
+}
+
+img {
+    background: rgb(245, 245, 245);
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
