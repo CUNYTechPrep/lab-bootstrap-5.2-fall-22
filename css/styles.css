@@ -1,1 +1,19 @@
-/* Add custom css styles here */
+.intro-text {
+  background-color: #263033;
+  color: white;
+  width: 33%;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0.75;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle {
+  border-radius: 250px;
+}
+.cookie {
+  position: relative;
+}

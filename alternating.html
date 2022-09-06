@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <title>Cookie Store</title>
   </head>
   <body>
-    <main>
+    <!-- <main>
       <h2>Our Cookies</h2>
       <p>Checkout our latest and delicious cookies.</p>
 
@@ -25,6 +32,77 @@
       <h3>Chocolate Chip</h3>
       <p>Gooey chocolate you'll love</p>
       <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
+    </main> -->
+
+    <main>
+      <div class="text-center p-5">
+        <h2>Our Cookies</h2>
+        <p>Checkout our latest and delicious cookies.</p>
+      </div>
+
+      <div class="container align-items-center">
+        <div class="row d-sm-flex d-md-flex">
+          <div class="col-md order-2 text-start p-5">
+            <h3>Mint Chocolate</h3>
+            <p>Tasty mint chocolate cookies</p>
+          </div>
+          <div class="col-md order-1 p-5">
+            <img
+              class="circle float-end"
+              src="images/mint-cookie.png"
+              alt="A single mint chocolate cookie"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container align-items-center">
+        <div class="row d-sm-flex d-md-flex">
+          <div class="col-md order-1 text-end p-5">
+            <h3>Peanut Butter</h3>
+            <p>Yummy peanut buttery goodness</p>
+          </div>
+          <div class="col-md-6 order-2 p-5">
+            <img
+              class="circle float-start"
+              src="images/peanut-cookie.png"
+              alt="A single peanut butter cookie"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container align-items-center">
+        <div class="row d-sm-flex d-md-flex">
+          <div class="col-md order-2 text-start p-5">
+            <h3>Oatmeal</h3>
+            <p>Your fitness instructors favorite</p>
+          </div>
+          <div class="col-md order-1 p-5">
+            <img
+              class="circle float-end"
+              src="images/oatmeal-cookie.png"
+              alt="A single oatmeal cookie"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container align-items-center">
+        <div class="row d-sm-flex d-md-flex">
+          <div class="col-md order-1 text-end p-5">
+            <h3>Chocolate Chip</h3>
+            <p>Gooey chocolate you'll love</p>
+          </div>
+          <div class="col-md order-2 p-5">
+            <img
+              class="circle float-start"
+              src="images/chip-cookie.png"
+              alt="A single chocolate chip cookie"
+            />
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

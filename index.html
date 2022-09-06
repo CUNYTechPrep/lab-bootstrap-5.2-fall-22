@@ -3,54 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <title>Cookie Store</title>
   </head>
   <body>
+    <!-- Intro & Top of the webpage -->
     <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
+      <div class="container cookie text-white">
+        
+         <img class="img-fluid" src="images/coffee-biscuits.jpg" /> 
+         <!-- <div class=" intro-text"> justify-content-center align-items-center -->
+          <div class="p-4 intro-text">
+          <h1>Cookie Store</h1>
+          <p>Buy our awesome cookies. All proceeds go to charity!</p>
+        </div>
+      </div>
     </header>
+    <!-- Add.d-flex to .bg-image to enable flexbox. Then add .justify-content-center to align content horizontally and.align-items-center to align them vertically. -->
 
+    <!-- Images of cookies that must be responsive -->
     <main>
-      <h2>Our Cookies</h2>
-      <p>Checkout our latest and delicious cookies.</p>
+      <div class="container p-5">
+        <div class="text-center p-3">
+          <h2>Our Cookies</h2>
+          <p>Checkout our latest and delicious cookies.</p>
+        </div>
 
-      <h3>Mint Chocolate</h3>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
+        <div class="row text-center g-2">
+          <div class="col-md">
+            <h3>Mint Chocolate</h3>
+            <p>Tasty mint chocolate cookies</p>
+            <img
+            class="circle"
+              src="images/mint-cookie.png"
+              alt="A single mint chocolate cookie"
+            />
+          </div>
 
-      <h3>Peanut Butter</h3>
-      <p>Yummy peanut buttery goodness</p>
-      <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
+          <div class="col-md">
+            <h3>Peanut Butter</h3>
+            <p>Yummy peanut buttery goodness</p>
+            <img
+            class="circle"
+              src="images/peanut-cookie.png"
+              alt="A single peanut butter cookie"
+            />
+          </div>
 
-      <h3>Oatmeal</h3>
-      <p>Your fitness instructors favorite</p>
-      <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
+          <div class="col-md">
+            <h3>Oatmeal</h3>
+            <p>Your fitness instructors favorite</p>
+            <img
+            class="circle"
+              src="images/oatmeal-cookie.png"
+              alt="A single oatmeal cookie"
+            />
+          </div>
 
-      <h3>Chocolate Chip</h3>
-      <p>Gooey chocolate you'll love</p>
-      <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
+          <div class="col-md">
+            <h3>Chocolate Chip</h3>
+            <p>Gooey chocolate you'll love</p>
+            <img
+            class="circle"
+              src="images/chip-cookie.png"
+              alt="A single chocolate chip cookie"
+            />
+          </div>
+        </div>
+      </div>
     </main>
-    <div>
-      <h2>About us</h2>
 
-      <img src="images/bakers.svg" alt="illustrations of two people baking" />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+    <!-- An 'About Us' w/ an img -->
+    <div class="container bg-light p-5">
+      <div class="row text-center">
+        <h2>About us</h2>
+      </div>
+
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-2 col-sm ">
+            <img class="w-75 circle cookie"
+              src="images/bakers.svg"
+              alt="illustrations of two people baking"
+            />
+          </div>
+
+          <div class="col-md align-items-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
       </div>
     </div>
-    <footer>
-      <h2>Contact us</h2>
-      <div>
-        100 Broadway Avenue,<br />
-        New York, NY 10001 <br />
-        (212) 555-1234
+    <!-- End of page/ footer -->
+
+    <footer class="container bg-primary">
+      <div class="row p-5">
+        <div class="col text-center text-light">
+          <h2>Contact us</h2>
+          
+            100 Broadway Avenue,<br />
+            New York, NY 10001 <br />
+            (212) 555-1234
+          </div>
+        </div>
       </div>
     </footer>
   </body>
