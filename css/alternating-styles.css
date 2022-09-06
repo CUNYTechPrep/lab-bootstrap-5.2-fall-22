@@ -1,0 +1,27 @@
+/* Add custom css styles here */
+/* MAIN COOKIE CONTENT */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    margin: 20px;
+    
+}
+img {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GENREAL STYLE FOR H2 ELEMENTS */
+h2 {
+    margin-top: 30px;
+    align-self: center;
+}

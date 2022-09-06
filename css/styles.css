@@ -3,6 +3,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 header {
     height: 400px;
     background-image: url("../images/coffee-biscuits.jpg");
@@ -25,11 +26,12 @@ header {
     opacity: 0.7;
 }
 
+/* MAIN COOKIE CONTENT */
 main {
-    align-items: center;
     display: flex;
+    align-items: center;
     flex-direction:column;
-    justify-content: space-between;
+    justify-content: center;
     margin: 20px;
     
 }
@@ -39,11 +41,20 @@ img {
     margin: 20px;
 }
 
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT US SECTION */
 .about-us{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
 }
+
 .about-us-content{
     display: flex;
     flex-direction: row;
@@ -53,6 +64,7 @@ img {
     margin: 20px;
 }
 
+/* CONTACT US */
 footer{
     padding: 50px 0px;
     display: flex;
@@ -62,6 +74,7 @@ footer{
     color: white;
 }
 
+/* GENREAL STYLE FOR H2 ELEMENTS */
 h2 {
     margin-top: 30px;
     align-self: center;
