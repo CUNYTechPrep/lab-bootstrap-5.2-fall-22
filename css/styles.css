@@ -1,1 +1,37 @@
 /* Add custom css styles here */
+.header-text{
+    width: 350px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+.header-text h1{
+    font-weight: 200;
+}
+
+.header-text p{
+    font-weight: 100;
+}
+
+.about-us-container{
+    margin-top: 50px;
+    background: #EFEDEC;
+}
+.about-us-image{
+    text-align: right;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.about-us-text{
+    text-align: justify;
+}
+
+.footer-container{
+    text-align: center;
+    color: white;
+    background: #257EFF;
+}
