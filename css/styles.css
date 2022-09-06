@@ -1,1 +1,24 @@
 /* Add custom css styles here */
+.title2{text-align: center;
+    margin: auto;
+    margin-bottom: 6px;
+}
+.head{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.background{
+    width: -50%;
+    height: .50%;
+}
+/* .head2{
+    text-align: center;
+    margin: right;
+} */
+.head2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
