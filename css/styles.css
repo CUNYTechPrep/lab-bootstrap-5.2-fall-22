@@ -1,1 +1,10 @@
 /* Add custom css styles here */
+header{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+h1{
+    color: greenyellow;
+}
