@@ -1,1 +1,10 @@
-/* Add custom css styles here */
+header {
+    height: 400px;
+    padding: 150px;
+    color: white;
+}
+
+#header {
+    background-image: url(/images/coffee-biscuits.jpg);
+    background-size: cover;
+}
