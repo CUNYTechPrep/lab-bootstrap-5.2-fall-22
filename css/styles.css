@@ -1,1 +1,128 @@
 /* Add custom css styles here */
+
+.title-text{
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    padding: 3%;
+    width: 30%;
+    background-color: #EAF6F6;
+    
+    
+}
+
+#parallax{
+    background-image: url(/images/coffee.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    
+  
+}
+
+#middle{
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+
+
+
+.title{
+    text-align: center;
+
+}
+.cookies{
+    text-align: center;
+    padding-right: 30px;
+   
+
+}
+
+.cookies-images{
+    border-radius: 100%;
+    padding: 6%;
+    width:80%
+   
+}
+
+.row{
+    padding:7% 3%;
+}
+h1{
+    font-family: "Montserrat-Black";
+    
+}
+
+.about-us{
+    background-color: #FEC260;
+    padding: 5% 5% 15% 5%;
+    text-align: left;
+}
+.baker-image{
+    width: 15%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 5%;
+    
+
+}
+
+.about-us-title{
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+footer{
+    text-align: center;
+    background-color: #A10035;
+    padding-top: 40px;
+    color: #bbbbbb;
+}
+.link{
+    padding:20px;
+    margin-right: aut;
+}
+
+a{
+    color:#11999E;
+    font-family:"Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding:20px 0;
+
+}
+p{
+    font-size: "Monserrat";
+    font-size: 1rem;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size:2.5rem;
+    
+}
+.navbar{
+    padding: 0 0 4.5rem;
+    border: none;
+   
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-family: "Montserrat-Black";
+}
+
