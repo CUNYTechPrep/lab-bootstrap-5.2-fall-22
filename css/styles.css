@@ -7,6 +7,9 @@ header{
     background-image: url("/images/coffee-biscuits.jpg");
     background-size: cover;
 }
+img{
+    border-radius: 100%;
+}
 div{
     padding: 10px 0;
 }
