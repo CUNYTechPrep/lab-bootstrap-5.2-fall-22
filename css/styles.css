@@ -9,6 +9,7 @@ header{
     background-position: center;
     background-image: url("../images/coffee-biscuits.jpg");
     height:50vh;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
