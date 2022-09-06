@@ -1,1 +1,27 @@
-/* Add custom css styles here */
+
+header {
+    color:black;
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    background-image: url("https://us.123rf.com/450wm/volodymyrshtun89/volodymyrshtun892008/volodymyrshtun89200800302/153926955-coffee-cup-with-cookies-on-wooden-table-background-mug-of-black-coffee-with-scattered-coffee-beans-a.jpg?ver=6");
+
+}
+.container .head {
+    text-align: center;
+}
+.container img {
+    border-radius: 50%;
+}
+.about h2 {
+    text-align: center;
+}
+.about img {
+    height: 150px;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
