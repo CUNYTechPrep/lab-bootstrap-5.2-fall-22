@@ -11,7 +11,7 @@ TITLE: Include your section in the pull request title
 
 ## What section are you in:
 
-- [ ] Tuesday
+- [x] Tuesday
 - [ ] Wednesday
 - [ ] Thursday
 - [ ] Friday 3pm
@@ -19,11 +19,11 @@ TITLE: Include your section in the pull request title
 
 **Is the solution complete?**
 
-[Yes/No]
+[Yes]
 
 **Did you run into any problems?**
 
-[Describe...]
+[Number 3 of part 3 was a bit challenging. I was unable to properly align the columns at the center using offset, but overall it looks similar to the examples provided.]
 
 **Did you collaborate with others on this solution?**
 
