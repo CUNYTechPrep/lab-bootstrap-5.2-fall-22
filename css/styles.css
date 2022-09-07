@@ -1,1 +1,49 @@
-/* Add custom css styles here */
+/* Add custom css styles here */ 
+header {
+    text-align: center; 
+    height: 500px; 
+    width: 1000px; 
+    background-image: url('/images/coffee-biscuits.jpg'); /*Must include '/' at the beginning for image to show up for some reason >:( */
+    background-size: cover; 
+    font-size: 25px;
+    padding: 7em;  
+    
+    
+    /*Make sure entire image is scaled correctly*/
+}
+
+
+p {
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+} 
+
+footer {
+    text-align: center; 
+    background-color: rgb(153, 255, 109);
+}
+ 
+
+/* CLASSES */ 
+.headerbox {
+    background-color: rgb(240, 248, 255, 0.75); /*Last value changes opacity only for background color*/ 
+    padding: 0%;
+    
+} 
+
+.titlebox {
+    background-color: rgba(4, 26, 45, 0.25); /*Last value changes opacity only for background color*/
+} 
+
+.cookie_border {
+    border-radius: 50%;
+} 
+
+.aboutus {
+    display: grid; 
+    background-color: rgba(240, 248, 255);
+} 
+
