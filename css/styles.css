@@ -2,12 +2,23 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-header {
+#header {
     height: 400px;
     padding: 150px;
     color: white;
     background-image: url(/images/coffee-biscuits.jpg);
     background-size: cover;
+}
+
+#title-words {
+    border: black solid 1px;
+    border-radius: 7px;
+    opacity: 0.4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
 }
 
 #our-cookies {
@@ -21,8 +32,9 @@ header {
 
 #about-us {
     text-align: center;
-    background-color: rgb(247, 241, 241);
+    background-color: lightgray;
     padding: 30px;
+    margin-top: 30px;
 }
 
 .words {
@@ -35,4 +47,17 @@ header {
     width: 130px;
     height: 130px;
     float: left;
+    padding-bottom: 20px;
+}
+
+#about {
+    padding-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(30, 144, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
 }
