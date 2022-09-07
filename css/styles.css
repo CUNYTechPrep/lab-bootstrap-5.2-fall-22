@@ -10,7 +10,13 @@
     display:inline-block;
 }
 .about-us{
-    padding:40px 0px;
+    padding:40px 0 0 0;
+    text-align:center;
+}
+.baking-img{
+    width:200px;
+    border-radius:50%;
+    padding:0 5px 40px 40px;
 }
 
 /* footer */
