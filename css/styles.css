@@ -3,6 +3,11 @@
     margin:0;
     padding:0;
 }
+img{
+    border-radius:50%;
+}
+
+/* main cookie section */
 
 /* about us */
 .about-section{
@@ -10,7 +15,7 @@
     display:inline-block;
 }
 .about-us{
-    padding:50px 0 20px 0;
+    padding:50px 0 0 0;
 }
 .about-text-img{
    align-items: center;
@@ -18,7 +23,6 @@
 }
 .baking-img{
     width:200px;
-    border-radius:50%;
 }
 
 /* footer */
