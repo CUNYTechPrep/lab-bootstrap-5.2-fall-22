@@ -44,6 +44,13 @@ footer {
 
 .aboutus {
     display: grid; 
-    background-color: rgba(240, 248, 255);
-} 
+    background-color: rgba(240, 248, 255); 
+    padding-top: 2%;  
+    padding-left: 5%;
+}  
+
+footer {
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
 
