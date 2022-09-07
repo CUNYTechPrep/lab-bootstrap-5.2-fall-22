@@ -10,13 +10,15 @@
     display:inline-block;
 }
 .about-us{
-    padding:40px 0 0 0;
-    text-align:center;
+    padding:50px 0 20px 0;
+}
+.about-text-img{
+   align-items: center;
+   padding:0 40px 40px 40px;
 }
 .baking-img{
     width:200px;
     border-radius:50%;
-    padding:0 5px 40px 40px;
 }
 
 /* footer */
@@ -29,4 +31,12 @@
 }
 .address{
     padding-bottom:50px;
+}
+
+/* mobile */
+@media screen and (max-width: 690px){
+    .baking-img{
+        width:120px;
+        
+    }
 }
