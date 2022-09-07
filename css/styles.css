@@ -1,1 +1,70 @@
-/* Add custom css styles here */
+
+  .header .transparentBG {
+    background-color: gainsboro transparent !important; 
+
+  }
+.header {
+    padding: 111px;
+    text-align: center;
+    background-image:url("../images/coffee-biscuits.jpg");
+    background-size: cover; 
+color:white;
+    font-size: 30px;
+   height:400px;
+  }
+
+
+  .img-fluid {
+border-radius: 80%; 
+width: 230px;
+ }
+
+ .intro {
+    text-align: center;
+    padding: 33px;
+ }
+ 
+ .about h2 {
+    text-align: center;
+ }
+ .about {
+        display: flex;
+        background-color: rgb(247, 243, 243);
+        padding: 111px;
+ }
+
+ .about img {
+    width: 125px;
+    border-radius: 80%;
+
+ }
+
+ .footer {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    text-align: center;
+    padding: 40px;
+ }
+
+ .float-left {
+ 
+      border-radius: 80%; 
+      width: 230px;
+       
+ }
+
+ .cookie {
+   display: flex;
+  text-align: center;
+ justify-content: space-between;
+ padding: 35px;
+ }
+ .cookie .words {
+   padding-top: 55px;
+   padding-right: 170px;
+ } 
+ .cookie:nth-child(even) {
+   flex-direction: row-reverse;
+ }
+
+
