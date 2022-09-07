@@ -1,1 +1,100 @@
 /* Add custom css styles here */
+*{
+    
+    background-color: FFFFFF;
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+ 
+}
+
+body{
+font-family: 'Karla', sans-serif;
+}
+
+
+
+.cookieImg{
+    border-radius: 50%;
+}
+
+header{
+    font-family: 'Quicksand', sans-serif;
+
+    height: 400px;
+    background-image: url(/images/coffee-biscuits.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.container-fluid{
+    width: 100%;
+}
+.aboutUs{
+    
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height:  height: 300px;
+    background-color: rgb(248,249,250);
+
+}
+
+.aboutUsImg{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.aboutUs-head{
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+
+#head {
+  position: relative;
+  text-align: center;
+  width: 600px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(251,251,251)
+}
+
+#greyImg{
+    
+    opacity: 0.7;
+    border-radius: 30px; 
+}
+
+.ourCookies{
+    text-align: center;
+    padding-top: 40px;
+  
+}
+
+
+#footer{
+    background-color: rgb(3,110,253);
+    color: rgb(255,255,255);
+    height: 220px;
+    text-align: center;
+    padding-top: 50px; 
+}
