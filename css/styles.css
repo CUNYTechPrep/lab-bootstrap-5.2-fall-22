@@ -1,1 +1,64 @@
 /* Add custom css styles here */
+
+html {
+    text-align: center;
+}
+
+header {
+    height: 400px;
+    width: auto;
+    background-image: url("https://raw.githubusercontent.com/AkshaPatel/lab-bootstrap-5.2/main/images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+footer {
+    padding: 30px;
+    color: white;
+    background-color: rgb(0, 119, 255);
+}
+
+img {
+    border-radius: 50%;
+}
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-top: 10%;
+}
+main {
+    padding-bottom: 50px;
+}
+.About-us {
+    background-color: rgb(233, 228, 228);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.baker {
+    margin: auto;
+    width: auto;
+    height: 100px;
+}
+
+div.col-6 {
+    padding-right: 20px;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+
+
+.head {
+    text-align: center;
+    color: white;
+    width: 450px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.535);
+    border-radius: 10px;
+} 
