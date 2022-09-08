@@ -6,6 +6,17 @@
 img{
     border-radius:50%;
 }
+/* alternating page styling */
+.alt-store-name{
+    padding: 100px 0 10px 0;
+}
+.cookie{
+    padding:40px 0;
+}
+
+
+
+/* rgular page styling */
 /* header */
 .header-section{
     background-image: url("../coffee.jpg");
@@ -89,3 +100,4 @@ img{
         
     }
 }
+
