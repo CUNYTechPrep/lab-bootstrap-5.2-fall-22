@@ -1,21 +1,36 @@
 /* Add custom css styles here */
 
 .container{
-    color: pink;
-    align-content: center;
+    text-align:center;
 }
 
-.row-sm{
-    width: 500px;
+.row{
     text-align: center;
 }
 
 .header{
-    background-color: chocolate;
+    background-image: url("https://raw.githubusercontent.com/elypalacios/lab-bootstrap-5.2/main/images/coffee-biscuits.jpg");
+    background-position: center;
+    background-size: cover;
     color:white;
-    height: 300px;
+    height: 400px;
     margin-bottom: 50px;
-    padding-top: 60px;
+    color:black;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+.box{
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 44, 44);
+    opacity: 0.5;
+    height: 200px;
+    width: 600px;
+    padding-top: 30px;
+    border-radius: 30px;
+  
+
 }
 
 .img{
@@ -26,11 +41,12 @@
 .img2{
     height: 100px;
     border-radius: 200px;
+    margin-top: 30px;
 }
 
-.col-sm{
-    width: 500px;
+.col{
     text-align: center;
+    
 }
 
 .about-us{
@@ -39,6 +55,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.paragraph{
+    text-align: left;
+    margin-top: 20px;
+}
+
 .footer{
     padding-top: 30px;
     padding-bottom: 30px;
