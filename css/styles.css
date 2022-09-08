@@ -3,6 +3,14 @@
     box-sizing: border-box;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .cookie-text > p, h3{
+        position: relative;
+        top: 40%;
+        text-align: center;
+    }
+}
+
 .header{
     background: url(../images/coffee-biscuits.jpg);
     background-size: cover;
@@ -20,10 +28,6 @@
     padding: 1rem 2.5rem 0 2.5rem;
     background: rgba(0, 0 ,0, .50);
     border-radius: 15px;
-}
-
-.container > * > *{
-    border: red 3px solid;
 }
 
 .main--title{
