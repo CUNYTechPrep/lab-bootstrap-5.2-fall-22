@@ -1,1 +1,6 @@
 /* Add custom css styles here */
+.top-header{
+    height: 400px;
+    background-size:cover;
+    padding:125px
+}
