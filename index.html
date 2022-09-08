@@ -4,45 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookie Store</title>
-  </head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+
   <body>
     <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
+      <div class="heading">
+        <h1 class="white">Cookie Store</h1>
+        <p class="white">Buy our awesome cookies. All proceeds go to charity!</p>
+      </div>
     </header>
 
     <main>
-      <h2>Our Cookies</h2>
-      <p>Checkout our latest and delicious cookies.</p>
+      <div class="container">
 
-      <h3>Mint Chocolate</h3>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
+        <div class="row">
+          <h2>Our Cookies</h2>
+          <p>Checkout our latest and delicious cookies.</p>
+        </div>
 
-      <h3>Peanut Butter</h3>
-      <p>Yummy peanut buttery goodness</p>
-      <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
-
-      <h3>Oatmeal</h3>
-      <p>Your fitness instructors favorite</p>
-      <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
-
-      <h3>Chocolate Chip</h3>
-      <p>Gooey chocolate you'll love</p>
-      <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
+        <div class="row">
+          <div class="col">
+            <h3>Mint Chocolate</h3>
+            <p>Tasty mint chocolate cookies</p>
+            <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
+          </div>
+          <div class="col">
+            <h3>Peanut Butter</h3>
+            <p>Yummy peanut buttery goodness</p>
+            <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
+          </div>
+          <div class="col">
+            <h3>Oatmeal</h3>
+            <p>Your fitness instructors favorite</p>
+            <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
+          </div>
+          <div class="col">
+            <h3>Chocolate Chip</h3>
+            <p>Gooey chocolate you'll love</p>
+            <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
+          </div>
+        </div>
+      </div>
+      
     </main>
-    <div>
+    <div class='aboutus'>
       <h2>About us</h2>
-
-      <img src="images/bakers.svg" alt="illustrations of two people baking" />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+      <div class="aboutus_content">
+        <img class='aboutus_img' src="images/bakers.svg" alt="illustrations of two people baking" />
+        <div class="aboutus_text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </div>
       </div>
     </div>
     <footer>
