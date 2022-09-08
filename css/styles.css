@@ -1,4 +1,6 @@
 /* Add custom css styles here */
+/* index style */
+
 body {
   text-align: center;
 }
@@ -50,3 +52,5 @@ footer {
   background-color: #056dfd;
   padding: 50px;
 }
+
+/* alternating style */
