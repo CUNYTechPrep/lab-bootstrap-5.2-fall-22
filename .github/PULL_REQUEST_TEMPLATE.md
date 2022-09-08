@@ -13,7 +13,7 @@ TITLE: Include your section in the pull request title
 
 - [ ] Tuesday
 - [ ] Wednesday
-- [ ] Thursday
+- [Yes] Thursday
 - [ ] Friday 3pm
 - [ ] Friday 6pm
 
