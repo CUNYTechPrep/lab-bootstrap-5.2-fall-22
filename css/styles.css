@@ -1,1 +1,48 @@
-/* Add custom css styles here */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+* {
+font-family: sans-serif;
+}
+
+
+/* Header */
+
+header {
+
+    background: url('/images/deva-williamson-KAlcWvaRCvk-unsplash.jpg') no-repeat center center/cover;
+    min-height: 400px;
+
+}
+
+
+.welcome-container{
+   padding: 40px 50px;
+   color: white;
+   text-align: center;
+   background: rgba(0,0,0,.6);
+   border-radius: 14px;
+   font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+/* Body */
+
+.cookies-container {
+    text-align:center;
+}
+
+.cooking-icon {
+    height: 120px;
+    width:120px
+}
+
+.about-us-container {
+    background:#f8f9fa;
+}
+
+/* Footer */
+
+footer {
+    background:#056dfd;
+    text-align: center;
+    color: white;
+}
