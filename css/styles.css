@@ -68,7 +68,20 @@ img{
 .address{
     padding-bottom:50px;
 }
-
+/* mid screen */
+@media screen and (max-width: 1150px){
+    .high-cookie{
+        transform: translatey(0);
+    }
+    .high-cookie, .low-cookie{
+        padding:50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .high-cookie, .low-cookie{
+        padding:30px;
+    }
+}
 /* mobile */
 @media screen and (max-width: 690px){
     .baking-img{
