@@ -7,7 +7,9 @@
 .row{
     text-align: center;
 }
-
+.top{
+    padding-top: 70px;
+}
 .header{
     background-image: url("https://raw.githubusercontent.com/elypalacios/lab-bootstrap-5.2/main/images/coffee-biscuits.jpg");
     background-position: center;
@@ -36,6 +38,7 @@
 .img{
     border-radius: 200px;
     margin: 30px;
+    
 }
 
 .img2{
@@ -66,4 +69,11 @@
     padding-bottom: 30px;
     background: hwb(221 7% 4%);
     color: white;
+}
+
+.col-md-3{
+    padding-top: 120px;
+}
+.col-md-4{
+    padding-top: 120px;
 }
