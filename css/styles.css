@@ -12,7 +12,24 @@ header {
 header div {
   color: black;
   text-align: center;
-  background-color: rgba(210, 210, 210, 0.75);
+  background-color: rgba(210, 210, 210, 0.8);
   padding: 20px;
   border-radius: 20px;
+}
+
+.about {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+.about h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#baker-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
