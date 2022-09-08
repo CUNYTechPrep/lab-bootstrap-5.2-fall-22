@@ -25,11 +25,17 @@ header div {
 
 .about h2 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 #baker-img {
   width: 100%;
   height: auto;
   border-radius: 50%;
+}
+
+footer {
+  background-color: rgb(205, 197, 235);
+  text-align: center;
+  padding: 40px;
 }
