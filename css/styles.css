@@ -4,7 +4,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .cookie-text > p, h3{
+    .cookie-text > p, .cookie-text > h3{
         position: relative;
         top: 40%;
         text-align: center;
