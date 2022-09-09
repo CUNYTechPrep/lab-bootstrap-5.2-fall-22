@@ -1,1 +1,43 @@
 /* Add custom css styles here */
+/* Add custom css styles here */
+header {
+  height: 400px;
+  background-size: cover;
+  background-image: url(/images/coffee-biscuits.jpg);
+  position: relative;
+}
+header .container {
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  left: 50px;
+  top: 100px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+header .col {
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+main {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.containerCustom{
+  background-color:#f5f5f5; 
+  padding:3%;
+  height: 300px;
+}
+
+footer {
+  padding: 3%;
+  background-color: #0062ff;
+  color: white;
+}
