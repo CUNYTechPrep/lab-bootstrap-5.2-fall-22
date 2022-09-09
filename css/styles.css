@@ -1,1 +1,39 @@
 /* Add custom css styles here */
+header {
+  height: 400px;
+/*   background-size: cover; */
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background: url("https://github.com/GyurMay/lab-bootstrap-5.2/blob/main/images/coffee-biscuits.jpg?raw=true");
+  background-size: cover;
+  
+}
+header > .header-elems {
+  color: #eee;
+  height: 100px;
+  display: grid;
+  justify-items: center;
+  position: relative;
+  
+  padding: 10px;
+  background-color: rgba(0,0,0, 0.6);
+  border-radius: 10px;
+}
+.about-us {
+  display: grid;
+  float: right;
+  padding: 20px 0;
+  justify-items: center;
+  background: rgba(0,0,0, 0.09);
+}
+/* .about-us h2{ } */
+.about-us .about-elems{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.about-us img{ height: 100px; }
+footer{
+  position: relative;
+  left:40%;
+}
