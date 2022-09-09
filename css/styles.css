@@ -32,7 +32,7 @@ footer {
     padding: 40px;
 }
 
-#about-us-image {
+img {
     /*This is how you make an image appear as a cirlce */
     width: 200px;
     height: 200px;
