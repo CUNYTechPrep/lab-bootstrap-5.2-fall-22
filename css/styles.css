@@ -1,1 +1,26 @@
 /* Add custom css styles here */
+.header {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://www.biscuitpeople.com/media/cache/platform_full/a06b71cdc4af23b6f8e7d1dbea6416bdfae7ffc0.jpg");
+    background-size: cover;
+}
+
+.header-text {
+    color: white;
+}
+
+#about-us-title {
+    text-align: center;
+}
+
+#about-us-img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 5em;
+}
+
+.footer {
+    background-color: #056dfd;
+    color: white;
+}
