@@ -20,7 +20,7 @@ Bootstrap Lab Draft: Friday Evening Section: Andi Kolari
 **Is the solution complete?**
 
 [Yes/No]
-No
+Yes
 
 **Did you run into any problems?**
 
