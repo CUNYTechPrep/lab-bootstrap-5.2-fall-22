@@ -15,16 +15,16 @@ TITLE: Include your section in the pull request title
 - [ ] Wednesday
 - [ ] Thursday
 - [ ] Friday 3pm
-- [ ] Friday 6pm
+- [X] Friday 6pm
 
 **Is the solution complete?**
 
-[Yes/No]
+[Yes/No]  Yes
 
 **Did you run into any problems?**
 
-[Describe...]
+[Describe...] I ran into a little trouble with the alternating html but I think I got it.
 
 **Did you collaborate with others on this solution?**
 
-<!-- Provide collaborators github usernames -->
+<!-- Provide collaborators github usernames --> No
