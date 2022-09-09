@@ -17,6 +17,10 @@ header div {
   border-radius: 20px;
 }
 
+img {
+  border-radius: 50%;
+}
+
 .about {
   margin-top: 50px;
   padding: 50px;
@@ -31,7 +35,6 @@ header div {
 #baker-img {
   width: 100%;
   height: auto;
-  border-radius: 50%;
 }
 
 footer {
