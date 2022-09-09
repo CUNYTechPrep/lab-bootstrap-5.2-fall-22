@@ -1,1 +1,29 @@
 /* Add custom css styles here */
+
+body{
+    background-color: white;
+
+}
+
+main{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    height: 400px;
+    background-size: cover;
+    background-color: aquamarine;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.col{
+    margin: 0 auto;
+    text-align: center;
+}
