@@ -18,4 +18,25 @@ header {
     text-align: center;
 }
 
+footer {
+    background-color: mediumaquamarine;
+    text-align: center;
+    padding: 40px;
+}
 
+#about-us-image {
+    width: 100px;
+    height: auto;
+}
+
+.container-fluid {
+    padding: 25px;
+}
+
+#about-us {
+    background-color: rgb(253, 252, 252);
+}
+
+#contact {
+    color: antiquewhite;
+}
