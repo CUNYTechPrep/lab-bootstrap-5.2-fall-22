@@ -27,6 +27,9 @@ header {
     border-radius: 50%;
     width: 85%;
 }
+.cookies h3{
+    margin-top: 1em;
+}
 .about-container{
     background: lightgray;
     padding: 2em 0;
