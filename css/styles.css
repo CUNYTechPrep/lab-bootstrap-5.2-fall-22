@@ -1,8 +1,8 @@
 /* Add custom css styles here */
 
 body{
+    
     background-color: white;
-
 }
 
 main{
@@ -12,18 +12,34 @@ main{
 header{
     text-align: center;
     height: 400px;
+    background-image: url('../images/coffee-biscuits.jpg');
     background-size: cover;
-    background-color: aquamarine;
-    
+    background-position: center;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .col{
     margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    size: 10in;
+}
+
+.about{
+    text-align: right;
+}
+
+footer{
     text-align: center;
 }
