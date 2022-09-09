@@ -1,1 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
 /* Add custom css styles here */
+header {
+	background-image: url("../images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    background-color: rgba(36, 36, 36, 0.75);
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#about-us {
+    background-color: rgb(244, 243, 243);
+    
+}
