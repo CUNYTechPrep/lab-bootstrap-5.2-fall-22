@@ -14,17 +14,17 @@ TITLE: Include your section in the pull request title
 - [ ] Tuesday
 - [ ] Wednesday
 - [ ] Thursday
-- [ ] Friday 3pm
+- [Yes] Friday 3pm
 - [ ] Friday 6pm
 
 **Is the solution complete?**
 
-[Yes/No]
+Yes, I think so.
 
 **Did you run into any problems?**
 
-[Describe...]
+I had trouble in figuring out why the text above each cookie doesn't show after creating a responsive grid class.
 
 **Did you collaborate with others on this solution?**
 
-<!-- Provide collaborators github usernames -->
+No
