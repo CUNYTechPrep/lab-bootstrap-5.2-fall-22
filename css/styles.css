@@ -18,6 +18,14 @@ header {
     text-align: center;
 }
 
+header .container{
+    background-color: aliceblue;
+    opacity: 0.85;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 15px;
+}
+
 footer {
     background-color: mediumaquamarine;
     text-align: center;
@@ -25,8 +33,12 @@ footer {
 }
 
 #about-us-image {
+    /*This is how you make an image appear as a cirlce */
     width: 200px;
-    height: auto;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+    /*border-radius allows for images and backgrounds to appear in a rounded circle*/
 }
 
 .container-fluid {
