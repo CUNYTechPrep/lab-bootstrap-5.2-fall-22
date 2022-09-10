@@ -1,1 +1,9 @@
 /* Add custom css styles here */
+header{
+    height: 400px;
+    background-image: url("coffee-biscuits.jpg");
+    margin: top;
+    width: 50%;
+    border: none;
+    
+}
