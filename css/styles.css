@@ -3,6 +3,7 @@ header{
     height:400px;
     background-image: url("/images/coffee-biscuits.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     margin-top: 10px;
     align-items: center;
