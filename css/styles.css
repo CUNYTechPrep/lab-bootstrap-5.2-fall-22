@@ -5,7 +5,7 @@
 }
 
 h2, header{
-    color: mediumaquamarine;
+    color: aquamarine;
 }
 
 header {
@@ -60,14 +60,6 @@ img {
     padding: 0px;
 }
 
-.cookies {
-    width: fit-content;
-    height: auto;
-    /*
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    */
-    padding: 25px;
+.order-first {
+    padding: 50px;
 }
