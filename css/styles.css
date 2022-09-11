@@ -1,1 +1,56 @@
 /* Add custom css styles here */
+
+.header {
+    height: 400px;
+    /* background-image:url(images/mint-cookie.png);
+    background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle{
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+  
+.bimage {
+    background-image:url(https://thumbs.dreamstime.com/b/top-view-chocolate-cookies-high-quality-photo-resolution-231569881.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.red{
+    background-color: black;
+}
+
+.border {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.placeRight{
+    width:80%;
+    float: right;
+}
+
+.foot {
+    background-color: aqua;
+}
+
+.body {
+    background-color:rgb(108, 211, 211);
+}

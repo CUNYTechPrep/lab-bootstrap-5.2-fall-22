@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookie Store</title>
   </head>
-  <body>
-    <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
-    </header>
-
-    <main>
-      <h2>Our Cookies</h2>
-      <p>Checkout our latest and delicious cookies.</p>
-
-      <h3>Mint Chocolate</h3>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
-
-      <h3>Peanut Butter</h3>
-      <p>Yummy peanut buttery goodness</p>
-      <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
-
-      <h3>Oatmeal</h3>
-      <p>Your fitness instructors favorite</p>
-      <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
-
-      <h3>Chocolate Chip</h3>
-      <p>Gooey chocolate you'll love</p>
-      <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
-    </main>
+  <body class="body">
+    <div class = "header bimage d-flex flex-column">
+      <header>
+        <h2 class="center">Cookie Store</h2>
+        <div class = "red">
+          <p style="color:red">Buy our awesome cookies. All proceeds go to charity!</p>
+        </div>
+      </header>
+    </div>
     <div>
-      <h2>About us</h2>
-
-      <img src="images/bakers.svg" alt="illustrations of two people baking" />
       <div>
+        <h2 class="center">Our Cookies</h2>
+        <p class="center">Checkout our latest and delicious cookies.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <h3 class="center">Mint Chocolate</h3>
+          <p> class="center"Tasty mint chocolate cookies</p>
+          <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" class="border"/>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h3 class="center">Peanut Butter</h3>
+          <p class="center class="center"">Yummy peanut buttery goodness</p>
+          <img src="images/peanut-cookie.png" alt="A single peanut butter cookie"class="border" />
+        </div> 
+        <div class="col-md-6 col-lg-3">
+          <h3 class="center">Oatmeal</h3>
+          <p class="center">Your fitness instructors favorite</p>
+          <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie"class="border" />
+        </div> 
+        <div class="ol-md-6 col-lg-3">
+          <h3 class="center">Chocolate Chip</h3>
+          <p class="center">Gooey chocolate you'll love</p>
+          <img src="images/chip-cookie.png" alt="A single chocolate chip cookie"class="border" />
+        </div>
+      </div>
+    </div>
+    <main>
+      
+
+      
+    <div>
+      <h2 class="center">About us</h2>
+
+      <img style="padding-left: 50px" class="float-child" src="images/bakers.svg" alt="illustrations of two people baking" width="200" height="200"/>
+      <div class="placeRight"><br><br><br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -46,11 +63,13 @@
       </div>
     </div>
     <footer>
-      <h2>Contact us</h2>
-      <div>
-        100 Broadway Avenue,<br />
-        New York, NY 10001 <br />
-        (212) 555-1234
+      <div class="foot">
+        <h2 class="center">Contact us</h2>
+        <p class="center">
+          100 Broadway Avenue,<br />
+          New York, NY 10001 <br />
+          (212) 555-1234
+        </p>
       </div>
     </footer>
   </body>
