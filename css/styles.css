@@ -1,1 +1,8 @@
 /* Add custom css styles here */
+header {
+  text-align: center;
+  height: 400px;
+  background-image: url(images/cappuccino-cookies.jpeg);
+  background-size: cover;
+
+}
