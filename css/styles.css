@@ -1,1 +1,10 @@
 /* Add custom css styles here */
+header {
+  text-align: center;
+  background-image: url("https://github.com/chrishardy100/lab-bootstrap-5.2/blob/main/images/coffee-biscuits.jpg");
+ background-color: #cccccc;
+}
+footer{
+  background-color: blue;
+  
+}
