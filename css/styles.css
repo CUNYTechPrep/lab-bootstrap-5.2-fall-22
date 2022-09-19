@@ -1,8 +1,27 @@
 /* Add custom css styles here */
 header {
-  text-align: center;
-  height: 400px;
-  background-image: url(images/cappuccino-cookies.jpeg);
-  background-size: cover;
-
-}
+    text-align: center;
+    height: 600px;
+    background-image: url("../images/cappuccino-cookies.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .div-1 {
+      text-align: center;
+      font-size: 12px;
+      font-family: "Times New Roman"; 
+  }
+  
+  .div-2 {
+      text-align: center;
+      font-size: 12px;
+      font-family: 'Courier New', Courier;
+  }
+  
+  html{
+      background-color: white;
+      text-align: center;
+      position: center; 
+  
+  }
