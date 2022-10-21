@@ -1,1 +1,28 @@
 /* Add custom css styles here */
+div.containerheader {
+    background: url(https://raw.githubusercontent.com/sheylavperez/lab-bootstrap-5.2/main/images/coffee-biscuits.jpg);
+    border: 2px solid;
+    background-size: 100%;
+
+
+  }
+  .centered {
+    margin: 13%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+  }
+
+  div.centered h1,p {
+    margin: 5%;
+    
+  }
+
+  .container{
+    margin:5%;
+  }
+  
+  .containerfooter{
+    background-color: aliceblue;
+  }
+
